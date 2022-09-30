@@ -31,7 +31,7 @@ $query = "SELECT * FROM mahasiswa ORDER BY nama ASC";
 
   <!-- STYLE -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../Sibarmati6/assets/css/styleD.css" />
+  <link rel="stylesheet" href="./assets/css/styleD.css" />
 
   <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -70,7 +70,7 @@ $query = "SELECT * FROM mahasiswa ORDER BY nama ASC";
       <h3 class="teksDesc">hello, ..., happy coding :)</h3>
     </div>
     <div class="foto">
-      <img src="./utama.png" alt="" class="img-fluid" />
+           <img src="./assets/img/utama.png" alt="" class="img-fluid" />
     </div>
 
     <!-- FOOTER -->
