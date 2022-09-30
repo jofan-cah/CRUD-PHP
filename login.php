@@ -155,7 +155,7 @@ if (isset($_POST["submit"])) {
     <!-- BOX RIGHT -->
     <div class="login-right w-50 h-100 ">
       <picture>
-        <img src="../Sibarmati6/assets/img/img1.png" alt="picture" class="img-fluid" class="gmb">
+        <img src="./assets/img/img1.png" alt="picture" class="img-fluid" class="gmb">
       </picture>
     </div>
 
