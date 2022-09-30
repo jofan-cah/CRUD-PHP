@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: Poppins;
+}
+
+/* SIDE BAR */
+.sidebar {
+  position: fixed;
+  left: 0;
+  width: 23%;
+  height: 100%;
+  background: #404040;
+}
+
+.sidebar header {
+  background: white;
+  user-select: none;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar header h1 {
+  font-size: 19px;
+  color: #e72029;
+  text-align: left;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.sidebar header h2 {
+  font-size: 13px;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.sidebar ul a {
+  /* display: block; */
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  font-size: 17px;
+  color: white;
+  box-sizing: border-box;
+  padding-left: 30px;
+  transition: 0.4s;
+}
+/* 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+ul li:hover img {
+  margin-left: 10px;
+  transition: 0.4s;
+}
+
+ul li:hover a {
+  padding-left: 30px;
+  color: #e72029;
+}
+
+/* BOX KANAN */
+.w-77 {
+  float: right;
+  width: 77% !important;
+}
+
+/* .boxHead {
+  background-color: #f6f6f6;
+  padding-top: 100px !important;
+  padding-bottom: 26px !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+} */
+
+.teksUtama {
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.teksDesc {
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+.foto {
+  padding: 2rem !important;
+  height: 70vh;
+}
+
+.iconNav {
+  width: 30px;
+}
+
+.gmb {
+  width: 60px;
+  height: 60px;
+}
+
+.atasBawah {
+  padding-left: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #f6f6f6;
+  padding: 30px;
+}
+
+.teksFooter {
+  font-size: 17px;
+}
+
+.gabut {
+  /* margin-top: -100px !important; */
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pesan {
+  background-color: #C0FFA9;
+  padding: 10px 15px;
+  margin: 0 0 20px 0;
+  border: 1px solid green;
+  box-shadow: 1px 0px 3px green;
+  text-align: center;
+ padding-left: 10px;
+}
+.pesanError {
+  background-color: #C0FFA9;
+  padding: 10px 15px;
+  margin: 0 0 20px 0;
+  border: 1px solid red;
+  box-shadow: 1px 0px 3px red;
+  text-align: center;
+ padding-left: 10px;
+}
